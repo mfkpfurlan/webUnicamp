@@ -1,0 +1,64 @@
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+#nav-bar {
+}
+
+.nav-link {
+	margin-left: 10px;
+}
+
+#header-container {
+	display: flex;
+	height: 200px;
+}
+
+#header-content {
+	float: left;
+}
+
+.header-img {
+	padding: 60px;
+}
+
+.ft-logo {
+	object-fit: cover;
+	object-position: 0 100%;
+	width: 90px;
+	height: 80px;
+}
+
+.unicamp-logo {
+	width: 70px;
+	height: 80px;
+}
+
+.header-text {
+	text-align:center; 
+	font-size:36px;
+}
+
+#title {
+	display: block;
+	text-align: center;
+}
+
+#information {
+
+}
+
+#grading {
+}
+
+.grading-row {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+}
+
+.grading-iten {
+	float: left;
+	width: 35%;
+}
