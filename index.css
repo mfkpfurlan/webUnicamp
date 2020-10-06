@@ -1,22 +1,51 @@
+html {
+	width: 1000px;
+	background-color: brown;
+}
+
 table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
 }
 
+p, ul, li {
+	font-size: 14px;
+}
+
 #nav-bar {
+	height: 36px;
+	background-color: bisque;
+	padding-top: 9px;
+	border-radius: 5px;
+	border: 1px solid black;
 }
 
 .nav-link {
-	margin-left: 10px;
+	padding-left: 8px;
+	font-size: 18px;
+	font-weight: bold;
+	color: brown;
+	text-decoration: none;
 }
 
 #header-container {
 	display: flex;
 	height: 200px;
+	justify-content: space-evenly;
+	background-color: bisque;
+	border-radius: 5px;
+	margin: 10px 10px 10px 10px;
+	border: 1px solid black;
 }
 
 #header-content {
 	float: left;
+}
+
+.header-text > p{
+	font-size: 34px;
+	font-weight: bolder;
+	color: darkred
 }
 
 .header-img {
@@ -43,13 +72,59 @@ table, th, td {
 #title {
 	display: block;
 	text-align: center;
+	background-color: bisque;
+	border-radius: 5px;
+	margin-top: 10px;
+	border: 1px solid black;
 }
 
 #information {
-
+	background-color: bisque;
+	border-radius: 5px;
+	margin-top: 10px;
+	border: 1px solid black;
+	padding-left: 8px;
 }
 
-#grading {
+#contact {
+	background-color: bisque;
+	border-radius: 5px;
+	margin-top: 10px;
+	border: 1px solid black;
+	padding-left: 8px;
+	
+}
+
+#objective {
+	background-color: bisque;
+	border-radius: 5px;
+	margin-top: 10px;
+	border: 1px solid black;
+	padding-left: 8px;
+}
+
+#metodology {
+	background-color: bisque;
+	border-radius: 5px;
+	margin-top: 10px;
+	border: 1px solid black;
+	padding-left: 8px;
+}
+
+#resources {
+	background-color: bisque;
+	border-radius: 5px;
+	margin-top: 10px;
+	border: 1px solid black;
+	padding-left: 8px;
+}
+
+#evaluation {
+	background-color: bisque;
+	border-radius: 5px;
+	margin-top: 10px;
+	border: 1px solid black;
+	padding-left: 8px;
 }
 
 .grading-row {
@@ -60,5 +135,40 @@ table, th, td {
 
 .grading-iten {
 	float: left;
-	width: 35%;
+	width: 40%;
+}
+
+#observations {
+	background-color: bisque;
+	border-radius: 5px;
+	margin-top: 10px;
+	border: 1px solid black;
+	padding-left: 8px;
+}
+
+#schedule {
+	background-color: bisque;
+	border-radius: 5px;
+	margin-top: 10px;
+	border: 1px solid black;
+	padding-left: 8px;
+	justify-content: space-around;
+}
+
+#schedule-table {
+	width: 95%;
+	justify-content: space-around;
+	margin-left: 15px;
+}
+
+#week-row {
+	width: 10%;
+}
+
+#date-row {
+	width: 10%;
+}
+
+#topic-row {
+	width: 65%;
 }
