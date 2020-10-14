@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="./index.css" />
+	<meta charset="UTF-8">
+	<script src="./index.js"></script>
+</head>
+
+<body>
+	<div id="display" class="line line2">
+		<div class="displayDiv">
+			<p class="displayText">Turn</p>
+		</div>
+		<div class="displayDiv">
+			<p class="displayText">Win</p>
+		</div>
+	</div>
+	<div id="display" class="line line2">
+		<div class="turnDiv">
+			<p id="turnText">O</p>
+		</div>
+		<div class="winDiv">
+			<p id="winText">.</p>
+		</div>
+	</div>
+	<div id="board">
+		<div class="line line1">
+			<div class="field field1" onclick="markOnBoard(this)">
+				<p id="field1" class="mark">.</p>
+			</div>
+			<div class="field field2" onclick="markOnBoard(this)">
+				<p id="field2" class="mark">.</p>
+			</div>
+			<div class="field field3" onclick="markOnBoard(this)">
+				<p id="field3" class="mark">.</p>
+			</div>
+		</div>
+		<div class="line line2">
+			<div class="field field4" onclick="markOnBoard(this)">
+				<p id="field4" class="mark">.</p>
+			</div>
+			<div class="field field5" onclick="markOnBoard(this)">
+				<p id="field5" class="mark">.</p>
+			</div>
+			<div class="field field6" onclick="markOnBoard(this)">
+				<p id="field6" class="mark">.</p>
+			</div>
+		</div>
+		<div class="line line3">
+			<div class="field field7" onclick="markOnBoard(this)">
+				<p id="field7" class="mark">.</p>
+			</div>
+			<div class="field field8" onclick="markOnBoard(this)">
+				<p id="field8" class="mark">.</p>
+			</div>
+			<div class="field field9" onclick="markOnBoard(this)">
+				<p id="field9" class="mark">.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

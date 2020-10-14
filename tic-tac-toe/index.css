@@ -1,0 +1,79 @@
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+#board {
+    width: 600px;
+    height: 600px;
+}
+
+.line {
+    width: 600px;
+    height: 200px;
+    display: flex;
+}
+
+.field {
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+.line1 {
+    border-bottom: 3px solid black;
+}
+
+.line2 {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.line3 {
+    border-top: 3px solid black;
+}
+
+.field1, .field4, .field7 {
+    border-right: 3px solid black;
+}
+
+.field2, .field5, .field8 {
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.field3, .field6, .field9 {
+    border-left: 3px solid black;
+}
+
+.field1, .field2, .field3, .field4, .field5, .field6, .field7, .field8, .field9 {
+    justify-content: center;
+    align-items: center;
+}
+
+.mark {
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+#display {
+    display: flex;
+}
+
+.winDiv, .turnDiv, .displayDiv {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.winDiv {
+    background-color: greenyellow;
+}
+
+#winText, #turnText, .displayText {
+    font-size: 100px;
+    font-weight: bolder;
+}
