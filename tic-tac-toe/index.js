@@ -22,11 +22,17 @@ function printWin(win, mark) {
     if (win == 'win') {
         document.getElementById(winText).innerHTML = mark;
         alert(mark + ' won the game!!!');
+        setTimeout(() => {
+            location.reload();
+        }, 1000);
         return;
     }
     if (win == 'tie') {
         document.getElementById(winText).innerHTML = 'TIE';
         alert('NOBODY' + ' won the game!!!');
+        setTimeout(() => {
+            location.reload();
+        }, 1000);
         return;
     }
     return;

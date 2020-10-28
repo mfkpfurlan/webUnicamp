@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+<head>
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <meta charset="UTF-8">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+
+    <div id="form-body">
+        <form id="theForm" onsubmit="return false">
+            <label for="name">Nome</label>
+            <input id="name" type="text" name="name" />
+            <label for="ra">RA</label>
+            <input id="ra" type="text" name="ra" />
+            <label for="gender">Sexo</label>
+            <input id="gender" type="text" name="gender" />
+            <label for="age">Idade</label>
+            <input id="age" type="text" name="age" />
+            <label for="address">Endereço</label>
+            <input id="address" type="text" name="address" />
+            <label for="phone">Telefone</label>
+            <input id="phone" type="text" name="phone" />
+            <label for="mail">Email</label>
+            <input id="mail" type="text" name="mail" />
+            <div class="button-div">
+                <input id="submit" type="submit" value="Cadastrar" onclick="return submitForm();" />
+            </div>
+            <div class="button-div">
+                <input id="show-data" type="submit" value="Mostrar Dados" onclick="return showData();" />
+            </div>
+        </form>
+    </div>
+    <br>
+    <div id="div-table">
+        <table id="data-table">
+        </table>
+    </div>
+
+</body>
+
+</html>
